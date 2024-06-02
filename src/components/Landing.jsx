@@ -3,17 +3,20 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 
 function Landing() {
   return (
-    <div className='w-full h-screen bg-zinc-900 pt-1'>
+    <div className='w-full h-screen bg-zinc-900 pt-1 '>
 
-      <div className="textstructure mt-40 px-10">
+      <div className="textstructure mt-[10vw] px-10">
         {["We Create", "Eye opening", "presentations"].map((item, index)=>(
-         <div className="masker font['Founders_Grotesk']">
-            <h1 key={index} className='text-[6.5vw] uppercase leading-[5.5vw] tracking-tighter font-medium'>{item}</h1>
+         <div className="masker ">
+            <div className='w-fit flex items-end overflow-hidden'>
+              {[index === 1 && (<div className='mr-1 w-[8vw] rounded-md h-[5vw] -top-[.7vw] relative bg-green-500'></div>)]}
+              <h1 key={index} className='  mb-[1vw] text-[6.5vw] uppercase leading-[5vw] tracking-tighter font-medium font["Founders_Grotesk_X-Condensed"]'>{item}</h1>
+            </div>
         </div>
         ))}
       </div>
 
-      <div className='border-t-[1px] border-zinc-600 mt-20 flex justify-between items-center py-3 px-10'>
+      <div className='border-t-[1px] border-zinc-600 mt-[5vw] flex justify-between items-center py-3 px-10'>
         {["For public and private companies","From the first pitch to IPO"].map((item, index)=>(
             <p className='text-md leading-none tracking-tight font-light '>{item}</p>
         ))}
