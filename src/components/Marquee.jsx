@@ -21,6 +21,7 @@ function Marquee() {
         transition={{ease: "linear", repeat: Infinity, duration: 5}}
          className='text-[17vw] leading-none font["Founder_Grotesk_X-Condensed"] font-semibold uppercase  mb-5'>we are ochi</motion.h1>
       </div>
+      
     </div>
   )
 }
