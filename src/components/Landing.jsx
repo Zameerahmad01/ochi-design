@@ -4,7 +4,7 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 
 function Landing() {
   return (
-    <div data-scroll data-scroll-speed="-.7" className='w-full h-screen bg-zinc-900 pt-1 '>
+    <div data-scroll data-scroll-speed="-.6" className='w-full h-screen bg-zinc-900 pt-1 '>
 
       <div className="textstructure mt-[10vw] px-10">
         {["We Create", "Eye opening", "presentations"].map((item, index)=>(
