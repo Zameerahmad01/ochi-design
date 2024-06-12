@@ -4,7 +4,7 @@ import image from '../assets/Homepage-Photo-663x469.jpg'
 function About() {
   return (
     <div data-scroll data-scroll-speed="-.1" data-scroll-section  className='w-full pt-20  pb-10 bg-[#CDEA68]  text-black font-["Neue_Montreal"]'>
-        <h1 className='text-[3.5vw]  px-10  leading-[4vw] tracking-tight'>Ochi is a strategic partner for fast-growing tech businesses that need to raise funds, sell products, explain complex ideas, and hire great people.</h1>
+        <h1 className='text-[3.5vw]  px-10  leading-[4vw] tracking-tight'>Ochi is a strategic partner for fast-growing tech businesses that need to raise funds, sell products, explain complex ideas, and hire great .</h1>
         <div className='w-full flex gap-5 border-t-[2px] border-[#A9C059] mt-20 py-5 px-10'>
             <div className='w-1/2 '>
                 <h1 className='text-5xl font-medium'>Our approach:</h1>
